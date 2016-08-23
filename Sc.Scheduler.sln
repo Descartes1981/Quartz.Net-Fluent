@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Scheduler", "Sc.Scheduler\Sc.Scheduler.csproj", "{119E9606-3A6C-4748-89E1-9E83ACB8D9AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.Scheduler.Test", "Sc.Scheduler.UnitTest\Sc.Scheduler.Test.csproj", "{A62CA44F-80DA-4823-894C-29885B67BFAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DBACD1F5-ADFF-435D-830C-A01BA0BFD192}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119E9606-3A6C-4748-89E1-9E83ACB8D9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119E9606-3A6C-4748-89E1-9E83ACB8D9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119E9606-3A6C-4748-89E1-9E83ACB8D9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119E9606-3A6C-4748-89E1-9E83ACB8D9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A62CA44F-80DA-4823-894C-29885B67BFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A62CA44F-80DA-4823-894C-29885B67BFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A62CA44F-80DA-4823-894C-29885B67BFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A62CA44F-80DA-4823-894C-29885B67BFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
